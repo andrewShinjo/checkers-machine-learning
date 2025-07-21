@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
 project(Checkers)
 
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 20)
 
-add_executable(checkers src/main.cpp)
+add_executable(
+  checkers
+  src/main.cpp
+  src/board.cpp
+)
