@@ -7,4 +7,5 @@ add_executable(
   checkers
   src/main.cpp
   src/board.cpp
+  src/game.cpp
 )
